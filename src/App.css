@@ -1,0 +1,166 @@
+.Header {
+  background-color: white;
+  box-shadow: 0 4px 50px 0 #00407d1a;
+  height: 5rem;
+}
+
+.Header .navbar-collapse.collapse.show {
+  box-shadow: 0 4px 50px 0 #00407d1a;
+}
+
+.Header .nav-link {
+  color: var(--base-400) !important;
+}
+
+.Header .nav-link:hover {
+  color: var(--primary-blue-500) !important;
+}
+
+.Header .nav-link.active {
+  color: var(--primary-blue-500) !important;
+  font-weight: bold;
+}
+
+.Header .nav-link.active::after {
+  content: "";
+  border: 2px solid;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.Header .navbar-brand .nav-link.active::after {
+  content: "";
+  border: none;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+/* Section */
+.section-title {
+  color: #1D1D1D;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  color: var(--primary-blue-500);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+section .content-body {
+  font-size: 20px;
+  color: var(--base-300);
+  text-align: justify;
+}
+
+section.half-bg {
+  background-image: url(./assets/images/banners/4.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+section .banner-title {
+  font-size: 4rem;
+}
+
+.video-react {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.video-react .video-react-big-play-button:before {
+  color: var(--primary-blue-500);
+  font-size: 4rem;
+  top: 26px;
+}
+
+.video-react-big-play-button {
+  top : 40% !important;
+  background: white !important;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+}
+
+@media screen and (max-width: 992px) {
+  section.half-bg {
+    background-image: none;
+    /* background-image: url(./assets/images/banners/4.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50%; */
+  }
+}
+
+/* Cards */
+
+.ServiceCard.card .card-body .card-title,
+.TeamMemberCard.card .card-body .card-title,
+.check-list-title {
+  font-size: 20px;
+  color: #061C3D;
+  font-weight: bold;
+}
+
+.ServiceCard.card .card-body .card-subtitle,
+.TeamMemberCard.card .card-body .card-subtitle,
+.check-list-subtitle,
+.banner-subtitle {
+  font-size: 16px;
+  color: var(--base-300);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.ServiceCard.card .card-body span {
+  width: 25%;
+}
+
+.ServiceCard.card .card-body .nav-link {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  border-bottom: 1px solid white;
+}
+
+.ServiceCard.card .card-body .nav-link:hover {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  border-bottom: 1px solid var(--primary-blue-500);
+}
+
+/* Footer */
+
+.Footer {
+  background-color: var(--primary-blue-50);
+}
+
+.Footer .content-body {
+  color: var(--base-200);
+  font-size: 14px;
+}
+
+.Footer .footer-section-title {
+  color: var(--base-500);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Footer .nav-link {
+  color: var(--base-300);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Footer .nav-link:hover {
+  color: var(--primary-blue-500);
+}
