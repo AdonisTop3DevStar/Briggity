@@ -62,7 +62,7 @@ export const TeamMembers = [
     {
         avatar : TeamMemberAvatar1,
         name : "Matt Case",
-        role : "CEO & Founder of Gilio"
+        role : "CEO & Founder of Briggity"
     },
     {
         avatar : TeamMemberAvatar2,
