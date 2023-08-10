@@ -12,10 +12,10 @@ export default function Footer() {
                     <Col md={3} sm={12} className="mb-3">
                         <Image src={Logo} height="40" className="mb-3" />
                         <ContentBody>The goal is to deliver quality-focused Software products to aspiring businesses.</ContentBody>
-                        <div className="d-flex align-items-center my-3">
-                            <NavLink className="nav-link" to="/" target="_black"><Image src={FaceBookIcon} className="me-2" /></NavLink>
-                            <NavLink className="nav-link" to="/" target="_black"><Image src={TwitterIcon} className="me-2" /></NavLink>
-                            <NavLink className="nav-link" to="/" target="_black"><Image src={LinkedinIcon} className="me-2" /></NavLink>
+                        <div className="d-flex align-items-center social-links">
+                            <NavLink className="nav-link" to="/" target="_black"><Image src={FaceBookIcon}/></NavLink>
+                            <NavLink className="nav-link" to="/" target="_black"><Image src={TwitterIcon}/></NavLink>
+                            <NavLink className="nav-link" to="/" target="_black"><Image src={LinkedinIcon}/></NavLink>
                         </div>
                     </Col>
                     <Col md={3} sm={12} className="mb-3">
@@ -35,9 +35,9 @@ export default function Footer() {
                     </Col>
                     <Col md={3} sm={12} className="mb-3">
                         <FooterSectiontitle>Reach us</FooterSectiontitle>
-                        <div className="d-flex align-items-center mb-2"><Image src={MailIcon} height="32" className="me-2"/><ContentBody>contact@Briggity.com</ContentBody></div>
-                        <div className="d-flex align-items-center mb-2"><Image src={PhoneIcon} height="32" className="me-2"/><ContentBody>+92-315-4431105</ContentBody></div>
-                        <div className="d-flex align-items-center mb-2"><Image src={MapIcon} height="32" className="me-2"/><ContentBody>Office #605, Liberty Gate Tower, MM Alam Road, Gullberg 3 Lahore, Pakistan</ContentBody></div>
+                        <div className="d-flex align-items-center mb-3"><Image src={MailIcon} height="32" className="me-2"/><ContentBody>contact@Briggity.com</ContentBody></div>
+                        <div className="d-flex align-items-center mb-3"><Image src={PhoneIcon} height="32" className="me-2"/><ContentBody>+92-315-4431105</ContentBody></div>
+                        <div className="d-flex align-items-start mb-3"><Image src={MapIcon} height="32" className="me-2"/><ContentBody>Office #605, Liberty Gate Tower, MM Alam Road, Gullberg 3 Lahore, Pakistan</ContentBody></div>
                     </Col>
                 </Row>
                 <hr className="text-base-200"/>

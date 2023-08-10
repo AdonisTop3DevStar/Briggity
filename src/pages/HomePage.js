@@ -14,10 +14,10 @@ function HomePage() {
                 <Container>
                     <Row>
                         <Col sm={12} md={8} className="mx-auto fw-bold">
-                            <div className="banner-title text-center mb-3">Make your dream business goal come true</div>
+                            <div className="banner-title text-center mb-4">Make your dream business goal come true</div>
                             <div className="banner-subtitle text-center mb-3">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
-                            <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div>
-                            <div className="position-relative">
+                            <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-white"/>
+                            <div className="position-relative mt-4">
                                 <ProjectCard/>
                                 <Player src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
                                     <BigPlayButton position="center" />
@@ -73,7 +73,7 @@ function HomePage() {
                         <Col lg={6} md={12} sm={12}>
                             <SectionTitle className="text-sm-start text-center">Why Briggity is best To Work With.</SectionTitle>
                             <ContentBody>Cras at pellentesque eros. Nullam vitae sapien et felis eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor sapien. Praesent nec mattis enim. Mauris a laoreet purus.</ContentBody>
-                            <div className="check-list d-flex align-items-start my-3">
+                            <div className="check-list d-flex align-items-start mt-4">
                                 <Image src={CheckIcon} width="40" />
                                 <div className="ms-3">
                                     <div className="check-list-title">User Experience Design Team.</div>

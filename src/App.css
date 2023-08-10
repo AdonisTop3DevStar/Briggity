@@ -74,6 +74,14 @@ section .banner-title {
   font-size: 4rem;
 }
 
+section.half-bg .section-title {
+  margin-bottom: 24px !important;
+}
+
+section.half-bg button {
+  margin-top: 40px !important;
+}
+
 .video-react {
   border-radius: 50px;
   overflow: hidden;
@@ -120,7 +128,8 @@ section .banner-title {
 }
 
 .ServiceCard.card .card-body span {
-  width: 25%;
+  width: 76px;
+  height: 76px;
 }
 
 .ServiceCard.card .card-body .nav-link {
@@ -137,6 +146,22 @@ section .banner-title {
   width: 35%;
   margin: auto;
   border-bottom: 1px solid var(--primary-blue-500);
+}
+
+.ServiceCard:hover span {
+  background-color: var(--primary-blue-500) !important;
+}
+
+.ServiceCard:hover span img {
+  filter: brightness(10);
+}
+
+.ServiceCard:hover .nav-link {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  border-bottom: 1px solid var(--primary-blue-500) !important;
 }
 
 .ProjectCard {
@@ -201,8 +226,17 @@ section .banner-title {
   color: var(--base-300);
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 12px !important;
 }
 
 .Footer .nav-link:hover {
   color: var(--primary-blue-500);
+}
+
+.Footer .social-links {
+  margin-top: 20px;
+}
+
+.Footer .social-links .nav-link img {
+  margin-right: 10px;
 }
