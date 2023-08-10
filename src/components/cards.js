@@ -19,7 +19,7 @@ export function TeamMemberCard({ avatar, name, role }) {
     return (
         <Card className="TeamMemberCard border-0">
             <Card.Body className="text-center">
-                <Image src={avatar} width="200" className="rounded-5" />
+                <Image src={avatar} width="200" className="rounded-circle" />
                 <Card.Title className="my-3">{name}</Card.Title>
                 <Card.Subtitle className="mb-3">{role}</Card.Subtitle>
             </Card.Body>
@@ -32,7 +32,7 @@ export function IntroCard() {
         <Card className="IntroCard border-0 shadow position-absolute z-3 d-none d-lg-flex">
             <Card.Body className="d-flex flex-column align-items-start">
                 <div className="d-flex flex-row align-items-center">
-                    <Image src={TeamMemberAvatar1} width="32" className="me-2"/>
+                    <Image src={TeamMemberAvatar1} width="32" className="me-2 rounded-circle"/>
                     <div className="introcard-info">
                         <div className="name">Matt Case</div>
                         <div className="role">CEO Briggity</div>
