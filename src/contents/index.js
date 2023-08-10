@@ -1,6 +1,23 @@
 import { BackendIcon, ExperienceIcon, FeedbackIcon, FrontendIcon, InterfaceIcon, IntroIcon, TeamMemberAvatar1, TeamMemberAvatar2, TeamMemberAvatar3, TeamMemberAvatar4, TeamMemberAvatar5, TeamMemberAvatar6, TeamMemberAvatar7, TeamMemberAvatar8 } from "../assets";
 
-export const NavLinks = [];
+export const NavLinks = [
+    {
+        title : "Home",
+        link : "/"
+    },
+    {
+        title : "About Us",
+        link : "/about-us"
+    },
+    {
+        title : "Service",
+        link : "/services"
+    },
+    {
+        title : "Contact",
+        link : "/contact"
+    },
+];
 
 export const Services = [
     {

@@ -1,11 +1,11 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { ContentBody, SectionSubTitle, SectionTitle } from "../components/typography";
-import { Banner1, Banner2, Banner3, Banner4, CheckIcon, FaceBookIcon } from "../assets";
+import { Banner1, Banner2, Banner3, CheckIcon } from "../assets";
 import { PrimaryBlueBtn } from "../components/buttons";
-import { ServiceCard } from "../components/cards";
 import { ServiceCardList, TeamMemberCardList } from "../components/layouts";
 import { Player, BigPlayButton } from 'video-react';
 import 'video-react/dist/video-react.css';
+import { IntroCard, ProjectCard } from "../components/cards";
 
 function HomePage() {
     return (
@@ -16,10 +16,14 @@ function HomePage() {
                         <Col sm={12} md={8} className="mx-auto fw-bold">
                             <div className="banner-title text-center mb-3">Make your dream business goal come true</div>
                             <div className="banner-subtitle text-center mb-3">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
-                            <div className="pe-sm-5 pe-3 text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div>
-                            <Player src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
-                                <BigPlayButton position="center" />
-                            </Player>
+                            <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div>
+                            <div className="position-relative">
+                                <ProjectCard/>
+                                <Player src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+                                    <BigPlayButton position="center" />
+                                </Player>
+                                <IntroCard/>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

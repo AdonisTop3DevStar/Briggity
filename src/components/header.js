@@ -1,12 +1,11 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/images/logo.svg';
 import { Image } from 'react-bootstrap';
+import { NavLinks } from '../contents';
+import { PrimaryBlueBtn } from './buttons';
+import { Logo } from '../assets';
 
 function Header() {
   return (
@@ -14,21 +13,20 @@ function Header() {
     <Navbar expand="lg" className="Header mt-4 rounded-4">
       <Container fluid className='px-4'>
         <Navbar.Brand>
-            <NavLink className="nav-link" to="/"><Image src={Logo} height="40"/></NavLink>
+            <NavLink className="nav-link d-flex flex-column" to="/"><Image src={Logo} height="40"/></NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className='justify-content-between bg-white rounded-4'>
+        <Navbar.Collapse id="navbarScroll" className='bg-white rounded-4 mx-auto'>
           <Nav
-            className="my-2 my-lg-0"
+            className="my-2 my-lg-0 mx-auto"
           >
-            <NavLink className="nav-link d-flex flex-column text-center" to="/"><span>Home</span></NavLink>
-            <NavLink className="nav-link d-flex flex-column text-center" to="/about-us"><span>About Us</span></NavLink>
-            <NavLink className="nav-link d-flex flex-column text-center" to="/services"><span>Service</span></NavLink>
-            <NavLink className="nav-link d-flex flex-column text-center" to="/team"><span>Team</span></NavLink>
-            <NavLink className="nav-link d-flex flex-column text-center" to="/blog"><span>Blog</span></NavLink>
-            <NavLink className="nav-link d-flex flex-column text-center" to="/contact"><span>Contact</span></NavLink>
+            {NavLinks.map((linkItem, index) => (
+                <NavLink className="nav-link d-flex flex-column text-center mx-2" to={linkItem.link}><span>{linkItem.title}</span></NavLink>
+            ))}
           </Nav>
+          <div className='d-flex justify-content-center d-lg-none mb-3'><PrimaryBlueBtn>Contact</PrimaryBlueBtn></div>
         </Navbar.Collapse>
+        <div className='d-none d-lg-inline'><PrimaryBlueBtn>Contact</PrimaryBlueBtn></div>
       </Container>
     </Navbar>
     </Container>

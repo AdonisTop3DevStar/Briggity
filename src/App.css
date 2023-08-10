@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.Header .nav-link span {
+  /* width: 5rem; */
+}
+
 .Header .nav-link.active::after {
   content: "";
   border: 2px solid;
@@ -30,9 +34,10 @@
   margin-top: 5px;
 }
 
-.Header .navbar-brand .nav-link.active::after {
+.Header .navbar-brand .nav-link.active::after,
+.Header .navbar-brand .nav-link::after {
   content: "";
-  border: none;
+  border: 2px solid white;
   width: 50%;
   margin: auto;
   border-radius: 10px;
@@ -81,7 +86,7 @@ section .banner-title {
 }
 
 .video-react-big-play-button {
-  top : 40% !important;
+  top: 40% !important;
   background: white !important;
   width: 100px !important;
   height: 100px !important;
@@ -91,10 +96,6 @@ section .banner-title {
 @media screen and (max-width: 992px) {
   section.half-bg {
     background-image: none;
-    /* background-image: url(./assets/images/banners/4.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: 50%; */
   }
 }
 
@@ -136,6 +137,47 @@ section .banner-title {
   width: 35%;
   margin: auto;
   border-bottom: 1px solid var(--primary-blue-500);
+}
+
+.ProjectCard {
+  width: 10rem;
+  top: 1rem;
+  left: -5rem;
+}
+
+.ProjectCard .project-card-title {
+  font-size: 12px;
+  color: var(--base-300);
+}
+
+.ProjectCard .project-card-count {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--base-500);
+}
+
+.IntroCard {
+  width: 10rem;
+  bottom: -1rem;
+  right: -5rem;
+}
+
+.IntroCard .introcard-info .name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--base-500);
+}
+
+.IntroCard .introcard-info .role {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--base-300);
+}
+
+.IntroCard .intro-content {
+  font-size: 12px;
+  color: var(--base-300);
+  font-weight: 300;
 }
 
 /* Footer */

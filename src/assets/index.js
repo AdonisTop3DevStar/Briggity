@@ -15,6 +15,10 @@ import BackendIcon from './images/icons/backend.svg';
 import FeedbackIcon from './images/icons/feedback.svg';
 import ArrowRightIcon from './images/icons/ArrowRight.svg';
 import CheckIcon from './images/icons/check.svg';
+import StarIcon from './images/icons/star.svg';
+import RedCirle from './images/icons/redcircle.svg';
+import BlueCircle from './images/icons/blue-circle.svg';
+import GreenCirCle from './images/icons/greencircle.svg';
 
 /* Team members */
 import TeamMemberAvatar1 from './images/team/1.jpg';
@@ -53,6 +57,10 @@ export {
     BackendIcon,
     FeedbackIcon,
     ArrowRightIcon,
+    StarIcon,
+    RedCirle,
+    BlueCircle,
+    GreenCirCle,
     TeamMemberAvatar1,
     TeamMemberAvatar2,
     TeamMemberAvatar3,
