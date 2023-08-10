@@ -6,16 +6,18 @@ import { ServiceCardList, TeamMemberCardList } from "../components/layouts";
 import { Player, BigPlayButton } from 'video-react';
 import 'video-react/dist/video-react.css';
 import { IntroCard, ProjectCard } from "../components/cards";
+import { ParallaxEffect } from "../components/parallax";
 
 function HomePage() {
     return (
         <div className="HomePage">
-            <section className="my-5">
+            <section className="position-relative">
+                <ParallaxEffect className="position-absolute"/>
                 <Container>
                     <Row>
                         <Col sm={12} md={8} className="mx-auto fw-bold">
                             <div className="banner-title text-center mb-4">Make your dream business goal come true</div>
-                            <div className="banner-subtitle text-center mb-3">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
+                            <div className="banner-subtitle text-center">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
                             <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-white"/>
                             <div className="position-relative mt-4">
                                 <ProjectCard/>
@@ -28,7 +30,7 @@ function HomePage() {
                     </Row>
                 </Container>
             </section>
-            <section className="my-5">
+            <section className="">
                 <Container>
                     <SectionSubTitle>About Us</SectionSubTitle>
                     <SectionTitle className="text-center">Who We Are</SectionTitle>
@@ -53,14 +55,14 @@ function HomePage() {
                     </Row>
                 </Container>
             </section >
-            <section className="my-5">
+            <section className="">
                 <Container>
                     <SectionSubTitle>Our Services</SectionSubTitle>
                     <SectionTitle className="text-center">What We Can Do For You</SectionTitle>
                     <ServiceCardList />
                 </Container>
             </section>
-            <section className="my-5">
+            <section className="">
                 <SectionSubTitle>Our Team</SectionSubTitle>
                 <SectionTitle className="text-center">Meet our team member</SectionTitle>
                 <Container>
