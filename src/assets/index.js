@@ -42,6 +42,10 @@ import Banner3 from './images/banners/3.jpg';
 import Banner4 from './images/banners/4.png';
 import Banner5 from './images/banners/5.jpg';
 import Banner6 from './images/banners/6.jpg';
+import Banner7 from './images/banners/7.jpg';
+import Banner8 from './images/banners/8.jpg';
+import Banner9 from './images/banners/9.jpg';
+import Banner10 from './images/banners/10.jpg';
 import BannerItem1 from './images/banners/item-1.svg';
 import BannerItem2 from './images/banners/item-2.svg';
 import BannerItem3 from './images/banners/item-3.svg';
@@ -67,6 +71,10 @@ export {
     Banner4,
     Banner5,
     Banner6,
+    Banner7,
+    Banner8,
+    Banner9,
+    Banner10,
     BannerItem1,
     BannerItem2,
     BannerItem3,
