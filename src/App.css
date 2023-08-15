@@ -131,7 +131,8 @@ section+section {
 /* Cards */
 
 .ServiceCard.card .card-body .card-title,
-.TeamMemberCard.card .card-body .card-title {
+.TeamMemberCard.card .card-body .card-title,
+.PrinciplesCard .card-title {
   font-size: 20px;
   color: white;
   font-weight: bold;
@@ -145,7 +146,8 @@ section+section {
 
 .ServiceCard.card .card-body .card-subtitle,
 .TeamMemberCard.card .card-body .card-subtitle,
-.banner-subtitle {
+.banner-subtitle,
+.PrinciplesCard .card-subtitle {
   font-size: 16px;
   color: var(--base-100);
   font-weight: 100;
@@ -176,6 +178,23 @@ section+section {
 .banner-item-5 {
   bottom: -6%;
   right: -6%;
+}
+
+.message-p-content{
+  border-left: 5px solid white;
+  font-style: italic;
+}
+
+.ceo-info .ceo-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ceo-info .ceo-role {
+  color: var(--base-100);
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .check-list-subtitle {

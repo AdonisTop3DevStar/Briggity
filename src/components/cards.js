@@ -1,6 +1,6 @@
 import { Card, Image } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { ArrowRightIcon, StarIcon, TeamMemberAvatar1 } from "../assets";
+import { ArrowRightIcon, CCAIcon, StarIcon, TeamMemberAvatar1 } from "../assets";
 
 export function ServiceCard({ icon, title, subtitle, link }) {
     return (
@@ -52,6 +52,18 @@ export function ProjectCard() {
                     <Image src={StarIcon} width="24" className="me-2"/>GREAT PROJECT
                 </div>
                 <div className="project-card-count"><strong>800+ </strong>Done</div>
+            </Card.Body>
+        </Card>
+    )
+}
+
+export function PrinciplesCard({image, title, content}) {
+    return (
+        <Card className="border-0 bg-primary-blue PrinciplesCard h-100">
+            <Card.Body className="p-4">
+                <Image src={image} width="60"/>
+                <Card.Title className="my-3 fs-bold">{title}</Card.Title>
+                <Card.Subtitle className="mb-3">{content}</Card.Subtitle>
             </Card.Body>
         </Card>
     )

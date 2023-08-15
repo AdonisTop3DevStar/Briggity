@@ -2,8 +2,8 @@ import { Outlet } from "react-router-dom";
 import Footer from "./footer";
 import Header from "./header";
 import { Col, Row } from "react-bootstrap";
-import { Services, TeamMembers } from "../contents";
-import { ServiceCard, TeamMemberCard } from "./cards";
+import { Principles, Services, TeamMembers } from "../contents";
+import { PrinciplesCard, ServiceCard, TeamMemberCard } from "./cards";
 
 export default function Layout() {
     return (
@@ -37,6 +37,18 @@ export function TeamMemberCardList() {
                 </Col>
             ))}
 
+        </Row>
+    )
+}
+
+export function PrincipleCardList() {
+    return (
+        <Row>
+            {Principles.map((principleItem, index) => (
+                <Col sm={12} md={3} className="mb-3">
+                    <PrinciplesCard image={principleItem.image} title={principleItem.title} content={principleItem.content}/>
+                </Col>
+            ))}
         </Row>
     )
 }

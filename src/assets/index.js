@@ -19,6 +19,10 @@ import StarIcon from './images/icons/star.svg';
 import RedCirle from './images/icons/redcircle.svg';
 import BlueCircle from './images/icons/blue-circle.svg';
 import GreenCirCle from './images/icons/greencircle.svg';
+import CCAIcon from './images/icons/CCA.svg';
+import ICIcon from './images/icons/IC.svg';
+import PEIcon from './images/icons/PE.svg';
+import AAIcon from './images/icons/AA.svg';
 
 /* Team members */
 import TeamMemberAvatar1 from './images/team/1.jpg';
@@ -36,6 +40,8 @@ import Banner1 from './images/banners/1.jpg';
 import Banner2 from './images/banners/2.jpg';
 import Banner3 from './images/banners/3.jpg';
 import Banner4 from './images/banners/4.png';
+import Banner5 from './images/banners/5.jpg';
+import Banner6 from './images/banners/6.jpg';
 import BannerItem1 from './images/banners/item-1.svg';
 import BannerItem2 from './images/banners/item-2.svg';
 import BannerItem3 from './images/banners/item-3.svg';
@@ -51,10 +57,16 @@ export {
     PhoneIcon,
     MapIcon,
     CheckIcon,
+    CCAIcon,
+    ICIcon,
+    PEIcon,
+    AAIcon,
     Banner1,
     Banner2,
     Banner3,
     Banner4,
+    Banner5,
+    Banner6,
     BannerItem1,
     BannerItem2,
     BannerItem3,

@@ -1,4 +1,4 @@
-import { BackendIcon, ExperienceIcon, FeedbackIcon, FrontendIcon, InterfaceIcon, IntroIcon, TeamMemberAvatar1, TeamMemberAvatar2, TeamMemberAvatar3, TeamMemberAvatar4, TeamMemberAvatar5, TeamMemberAvatar6, TeamMemberAvatar7, TeamMemberAvatar8 } from "../assets";
+import { AAIcon, BackendIcon, CCAIcon, ExperienceIcon, FeedbackIcon, FrontendIcon, ICIcon, InterfaceIcon, IntroIcon, PEIcon, TeamMemberAvatar1, TeamMemberAvatar2, TeamMemberAvatar3, TeamMemberAvatar4, TeamMemberAvatar5, TeamMemberAvatar6, TeamMemberAvatar7, TeamMemberAvatar8 } from "../assets";
 
 export const NavLinks = [
     {
@@ -98,5 +98,28 @@ export const TeamMembers = [
         avatar : TeamMemberAvatar8,
         name : "Devon Lane",
         role : "Front-end Developer"
+    },
+];
+
+export const Principles = [
+    {
+        image : CCAIcon,
+        title : "Customer-Centric Approach",
+        content : "Our customers are at the heart of everything we do. We actively listen to their needs, understand their challenges, and strive to provide innovative solutions that exceed their expectations. Our success is directly tied to the success of our customers."
+    },
+    {
+        image : ICIcon,
+        title : "Innovation and Creativity",
+        content : "We foster a culture of continuous innovation and creativity. We encourage our team members to think outside the box, explore new ideas, and challenge the status quo. Embracing innovation empowers us to deliver cutting-edge solutions to our clients."
+    },
+    {
+        image : PEIcon,
+        title : "Passion for Excellence",
+        content : "We are passionate about what we do. Our commitment to excellence drives us to deliver high-quality software solutions, ensuring that our clients receive the best value for their investments."
+    },
+    {
+        image : AAIcon,
+        title : "Agility and Adaptability",
+        content : "In the fast-paced world of technology, agility is crucial. We embrace change and adapt quickly to new challenges and opportunities, enabling us to stay ahead in a dynamic market."
     },
 ];
