@@ -44,6 +44,10 @@
   margin-top: 5px;
 }
 
+.Header .primary-blue-btn {
+  border: 1px solid white !important;
+}
+
 /* Section */
 .section-title {
   color: white;

@@ -8,6 +8,6 @@ export function PrimaryBlueBtn ({children}) {
 
 export function ContactBtn ({children}) {
     return (
-        <Button className="rounded-2 fw-bold px-5 bg-white">{children}</Button>
+        <Button className="ContactBtn primary-blue-btn rounded-2 fw-bold px-5  bg-primary-blue border-1 border-white">{children}</Button>
     )
 }

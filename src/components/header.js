@@ -26,7 +26,7 @@ function Header() {
           </Nav>
           <div className='d-flex justify-content-center d-lg-none mb-3'><ContactBtn>Contact</ContactBtn></div>
         </Navbar.Collapse>
-        <div className='d-none d-lg-inline'><PrimaryBlueBtn>Contact</PrimaryBlueBtn></div>
+        <div className='d-none d-lg-inline'><ContactBtn>Contact</ContactBtn></div>
       </Container>
     </Navbar>
     </Container>
