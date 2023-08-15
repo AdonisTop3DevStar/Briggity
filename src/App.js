@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-white">
+    <div className="App dark-theme">
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>

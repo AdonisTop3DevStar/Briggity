@@ -1,4 +1,5 @@
 :root {
+  --primary-blue : #283A4E;
   --primary-blue-50 : #ebeeff;
   --primary-blue-100 : #c1c9ff;
   --primary-blue-200 : #a3afff;
@@ -252,6 +253,10 @@
   color : var(--other-red-900) !important;
 }
 
+.bg-primary-blue {
+  background-color:  var(--primary-blue) !important;
+}
+
 .bg-primary-50  {
   background-color : var(--primary-blue-50) !important;
 }
@@ -470,4 +475,8 @@
 
   *::-webkit-scrollbar-thumb {
     border: 3px solid #ffffff;
+  }
+
+  .dark-theme {
+    background-color: #0A0219;
   }

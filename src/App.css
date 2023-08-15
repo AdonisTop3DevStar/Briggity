@@ -9,15 +9,15 @@
 }
 
 .Header .nav-link {
-  color: var(--base-400) !important;
+  color: var(--base-50) !important;
 }
 
 .Header .nav-link:hover {
-  color: var(--primary-blue-500) !important;
+  color: var(--base-50) !important;
 }
 
 .Header .nav-link.active {
-  color: var(--primary-blue-500) !important;
+  color: var(--base-50) !important;
   font-weight: bold;
 }
 
@@ -37,7 +37,7 @@
 .Header .navbar-brand .nav-link.active::after,
 .Header .navbar-brand .nav-link::after {
   content: "";
-  border: 2px solid white;
+  border: 2px solid var(--primary-blue);
   width: 28px;
   margin: auto;
   border-radius: 10px;
@@ -46,20 +46,20 @@
 
 /* Section */
 .section-title {
-  color: #1D1D1D;
+  color: white;
   font-size: 54px;
   font-weight: bold;
 }
 
 .section-subtitle {
-  color: var(--primary-blue-500);
+  color: var(--base-100);
   font-size: 24px;
   font-weight: 400;
 }
 
 section .content-body {
   font-size: 20px;
-  color: var(--base-300);
+  color: var(--base-100);
   text-align: justify;
 }
 
@@ -81,6 +81,7 @@ section.half-bg .section-title {
 section.half-bg button {
   margin-top: 40px !important;
 }
+
 section+section {
   margin-top: 200px;
 }
@@ -90,10 +91,23 @@ section+section {
   overflow: hidden;
 }
 
+.video-react.video-react-fluid {
+  box-shadow: 0 0 50px 0 #ffffff4a;
+  z-index: 10 !important;
+}
+
 .video-react .video-react-big-play-button:before {
   color: var(--primary-blue-500);
   font-size: 4rem;
   top: 26px;
+}
+
+.video-react .video-react-big-play-button:before {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .video-react-big-play-button {
@@ -113,26 +127,63 @@ section+section {
 /* Cards */
 
 .ServiceCard.card .card-body .card-title,
-.TeamMemberCard.card .card-body .card-title,
+.TeamMemberCard.card .card-body .card-title {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
 .check-list-title {
   font-size: 20px;
-  color: #061C3D;
+  color: white;
   font-weight: bold;
 }
 
 .ServiceCard.card .card-body .card-subtitle,
 .TeamMemberCard.card .card-body .card-subtitle,
-.check-list-subtitle,
 .banner-subtitle {
   font-size: 16px;
-  color: var(--base-300);
+  color: var(--base-100);
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.banner-item-1 {
+  top: 1%;
+  left: 20%;
+}
+
+.banner-item-2 {
+  bottom: -5%;
+  left: 25%;
+}
+
+.banner-item-3 {
+  right: -6%;
+  top: -14%;
+  z-index: 1;
+}
+
+.banner-item-4 {
+  top: -10%;
+  left: -6%;
+}
+
+.banner-item-5 {
+  bottom: -6%;
+  right: -6%;
+}
+
+.check-list-subtitle {
+  font-size: 16px;
+  color: var(--base-200);
   font-weight: 100;
   line-height: 1.5;
 }
 
 .primary-blue-btn {
   height: 48px;
-  box-shadow: 0 3px 12px 0 rgba(55, 81, 255, 0.5);
+  border: none !important;
 }
 
 .banner-subtitle {
@@ -141,8 +192,9 @@ section+section {
 
 .ServiceCard.card .card-body span {
   width: 76px;
-  height: 76px; 
+  height: 76px;
   transition: 1s;
+  background: #0A0219 !important;
 }
 
 .ServiceCard.card .card-body .nav-link {
@@ -150,7 +202,8 @@ section+section {
   justify-content: center;
   width: 35%;
   margin: auto;
-  border-bottom: 1px solid white;
+  color: white !important;
+  border-bottom: 1px solid var(--primary-blue);
 }
 
 .ServiceCard.card .card-body .nav-link:hover {
@@ -159,18 +212,18 @@ section+section {
   width: 35%;
   transition: 1s;
   margin: auto;
-  border-bottom: 1px solid var(--primary-blue-500);
+  border-bottom: 1px solid white;
 }
 
 .ServiceCard.card:hover .card-body span {
-  background-color: var(--primary-blue-500) !important;
+  background-color: white !important;
   transition: 1s;
   width: 76px;
-  height: 76px; 
+  height: 76px;
 }
 
 .ServiceCard:hover span img {
-  filter: brightness(10);
+  filter: invert(1);
   transition: 1s;
 }
 
@@ -179,49 +232,51 @@ section+section {
   justify-content: center;
   width: 35%;
   margin: auto;
-  border-bottom: 1px solid var(--primary-blue-500) !important;
+  border-bottom: 1px solid white !important;
 }
 
 .ProjectCard {
-  top: 1rem;
+  top: 5rem;
   left: -5rem;
   height: 85px;
   width: 171px;
+  z-index: 15 !important;
 }
 
 .ProjectCard .project-card-title {
   font-size: 12px;
-  color: var(--base-300);
+  color: var(--base-100);
 }
 
 .ProjectCard .project-card-count {
   font-size: 24px;
   font-weight: 400;
-  color: var(--base-500);
+  color: white;
 }
 
 .IntroCard {
   width: 166px;
-    height: 180px;
+  height: 180px;
   bottom: -1rem;
   right: -5rem;
+  z-index: 15 !important;
 }
 
 .IntroCard .introcard-info .name {
   font-size: 12px;
   font-weight: 700;
-  color: var(--base-500);
+  color: white;
 }
 
 .IntroCard .introcard-info .role {
   font-size: 12px;
   font-weight: 500;
-  color: var(--base-300);
+  color: var(--base-100);
 }
 
 .IntroCard .intro-content {
   font-size: 12px;
-  color: var(--base-300);
+  color: white;
   font-weight: 300;
 }
 
@@ -232,25 +287,26 @@ section+section {
 }
 
 .Footer .content-body {
-  color: var(--base-200);
+  color: var(--base-100);
   font-size: 14px;
 }
 
 .Footer .footer-section-title {
-  color: var(--base-500);
+  color: white;
   font-size: 20px;
   font-weight: bold;
 }
 
 .Footer .nav-link {
-  color: var(--base-300);
+  color: var(--base-100);
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 12px !important;
 }
 
-.Footer .nav-link:hover {
-  color: var(--primary-blue-500);
+.Footer .nav-link:hover,
+.Footer .nav-link.active {
+  color: white;
 }
 
 .Footer .social-links {
@@ -259,53 +315,4 @@ section+section {
 
 .Footer .social-links .nav-link img {
   margin-right: 10px;
-}
-
-
-/** Parallax Effect */
-
-.parallax-wrap {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.parallax-wrap span {
-  position: absolute;
-  height: 31px;
-  width: 31px;
-  border-radius: 100%;
-}
-.parallax-wrap span:nth-child(1) {
-  top: 70%;
-  left: 70%;
-  background-image: linear-gradient(rgba(68, 133, 255, 0.8), rgba(55, 125, 255, 1));
-  z-index: 3;
-}
-.parallax-wrap span:nth-child(2) {
-  top: 35%;
-    left: 70%;
-  background-image: linear-gradient(rgba(255, 142, 142, 1), rgba(246, 36, 36, 1));
-  z-index: 3;
-}
-.parallax-wrap span:nth-child(3) {
-  top: 70%;
-  left: 25%;
-  background-image: linear-gradient(rgba(68, 133, 255, 0.8), rgba(55, 125, 255, 1));
-  z-index: 3;
-}
-.parallax-wrap span:nth-child(4) {
-  top: 80%;
-  left: 10%;
-  background-image: linear-gradient(rgba(68, 133, 255, 0.8), rgba(55, 125, 255, 1));
-  z-index: 3;
-}
-.parallax-wrap span:nth-child(5) {
-  top: 75%;
-  left: 30%;
-  background-image: linear-gradient(rgba(255, 142, 142, 1), rgba(246, 36, 36, 1));
-  z-index: 3;
 }

@@ -36,6 +36,11 @@ import Banner1 from './images/banners/1.jpg';
 import Banner2 from './images/banners/2.jpg';
 import Banner3 from './images/banners/3.jpg';
 import Banner4 from './images/banners/4.png';
+import BannerItem1 from './images/banners/item-1.svg';
+import BannerItem2 from './images/banners/item-2.svg';
+import BannerItem3 from './images/banners/item-3.svg';
+import BannerItem4 from './images/banners/item-4.svg';
+import BannerItem5 from './images/banners/item-5.svg';
 
 export {
     Logo,
@@ -50,6 +55,11 @@ export {
     Banner2,
     Banner3,
     Banner4,
+    BannerItem1,
+    BannerItem2,
+    BannerItem3,
+    BannerItem4,
+    BannerItem5,
     IntroIcon,
     ExperienceIcon,
     InterfaceIcon,

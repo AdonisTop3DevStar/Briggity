@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <div className="Footer pt-5">
+        <div className="Footer pt-5 bg-primary-blue">
             <Container>
                 <Row>
                     <Col md={3} sm={12} className="mb-3">

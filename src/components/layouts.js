@@ -7,7 +7,7 @@ import { ServiceCard, TeamMemberCard } from "./cards";
 
 export default function Layout() {
     return (
-        <div className="Layout">
+        <div className="Layout pt-4">
             <Header />
             <Outlet />
             <Footer />
