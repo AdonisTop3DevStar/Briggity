@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import { NavLinks } from '../contents';
-import { ContactBtn, PrimaryBlueBtn } from './buttons';
+import { ContactBtn} from './buttons';
 import { Logo } from '../assets';
 
 function Header() {

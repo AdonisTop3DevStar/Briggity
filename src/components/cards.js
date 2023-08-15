@@ -1,6 +1,6 @@
 import { Card, Image } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { ArrowRightIcon, CCAIcon, StarIcon, TeamMemberAvatar1 } from "../assets";
+import { ArrowRightIcon, StarIcon, TeamMemberAvatar1 } from "../assets";
 
 export function ServiceCard({ icon, title, subtitle, link }) {
     return (

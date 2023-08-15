@@ -1,7 +1,7 @@
 import { Col, Container, Row, Image, Button } from "react-bootstrap";
 import { ContentBody, SectionTitle } from "../components/typography";
 import { PrimaryBlueBtn } from "../components/buttons";
-import { Banner10, Banner5, Banner7, Banner8, Banner9 } from "../assets";
+import { Banner10, Banner7, Banner8, Banner9 } from "../assets";
 
 function ServicePage() {
     return (
