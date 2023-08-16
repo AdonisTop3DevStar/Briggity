@@ -458,10 +458,22 @@
   background-color : var(--other-red-900) !important;
 }
 
+@font-face {
+  font-family: Mulish;
+  src: url("./assets/fonts/Mulish-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Urbanist;
+  src: url("./assets/fonts/Urbanist-VariableFont_wght.ttf");
+}
+
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
     scrollbar-width: 0px;
+    font-family: Urbanist;
   }
 
   /* Chrome, Edge, and Safari */

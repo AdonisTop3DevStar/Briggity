@@ -20,10 +20,10 @@ export default function Footer() {
                     </Col>
                     <Col md={3} sm={12} className="mb-3">
                         <FooterSectiontitle>Quick Links</FooterSectiontitle>
-                        <NavLink to="" className="nav-link mb-2">Home</NavLink>
-                        <NavLink to="" className="nav-link mb-2">About Us</NavLink>
-                        <NavLink to="" className="nav-link mb-2">Services</NavLink>
-                        <NavLink to="" className="nav-link mb-2">Blogs</NavLink>
+                        <NavLink to="/" className="nav-link mb-2">Home</NavLink>
+                        <NavLink to="/about-us" className="nav-link mb-2">About Us</NavLink>
+                        <NavLink to="/services" className="nav-link mb-2">Services</NavLink>
+                        <NavLink to="/" className="nav-link mb-2">Blogs</NavLink>
                     </Col>
                     <Col md={3} sm={12} className="mb-3">
                         <FooterSectiontitle>Services</FooterSectiontitle>

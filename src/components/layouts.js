@@ -45,7 +45,7 @@ export function PrincipleCardList() {
     return (
         <Row>
             {Principles.map((principleItem, index) => (
-                <Col sm={12} md={3} className="mb-3">
+                <Col sm={12} md={6} lg={3} className="mb-3 p-4">
                     <PrinciplesCard image={principleItem.image} title={principleItem.title} content={principleItem.content}/>
                 </Col>
             ))}

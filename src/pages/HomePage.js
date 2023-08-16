@@ -9,14 +9,14 @@ import { IntroCard, ProjectCard } from "../components/cards";
 
 function HomePage() {
     return (
-        <div className="HomePage">
+        <div className="HomePage pt-5">
             <section>
                 <Container>
                     <Row>
                         <Col sm={12} md={10} className="mx-auto fw-bold">
                             <div className="banner-title text-center mb-4 text-white">Turning Your Business Dream Into Tomorrow's Reality.</div>
                             <div className="banner-subtitle text-center">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
-                            <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div>
+                            <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-transparent"/>
                             <div className="position-relative pt-5">
                                 <ProjectCard />
                                 <Image src={BannerItem1} className="position-absolute banner-item-1" />
@@ -79,7 +79,7 @@ function HomePage() {
             <section className="half-bg" >
                 <Container>
                     <Row>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className="mb-5">
                             <SectionTitle className="text-sm-start text-center">Why Briggity is best To Work With.</SectionTitle>
                             <ContentBody>Cras at pellentesque eros. Nullam vitae sapien et felis eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor sapien. Praesent nec mattis enim. Mauris a laoreet purus.</ContentBody>
                             <div className="check-list d-flex align-items-start mt-4">

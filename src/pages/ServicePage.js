@@ -5,7 +5,7 @@ import { Banner10, Banner7, Banner8, Banner9 } from "../assets";
 
 function ServicePage() {
     return (
-        <div className="ServicePage">
+        <div className="ServicePage pt-5">
              <section className="my-5" >
                 <Container>
                     <Row className="align-items-center">
@@ -15,7 +15,7 @@ function ServicePage() {
                             <ContentBody>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</ContentBody>                            
                             <div className="pe-sm-5 pe-3 text-center text-sm-start my-5"><PrimaryBlueBtn>Work With Us</PrimaryBlueBtn></div>
                         </Col>
-                        <Col lg={5} md={12} sm={12} className="text-center text-sm-end"><Image src={Banner7} className="rounded-2" width="80%"/></Col>
+                        <Col lg={5} md={12} sm={12} className="text-center text-sm-end"><Image src={Banner7} className="rounded-2" width="90%"/></Col>
                     </Row>
                 </Container>
             </section>
@@ -36,7 +36,7 @@ function ServicePage() {
                             <SectionTitle className="text-sm-start text-center">Website & Mobile Development</SectionTitle>
                             <ContentBody>We build custom applications to help companies save smarter, grow faster, serve better; through automation, business process management, to create unique advantages for the business. We have been trusted by many businesses to build their entire technology from the ground up. With a highly-qualified, committed, and results-driven team, we can provide modern, scalable, and easily maintainable software solutions.</ContentBody>                                                        
                         </Col>
-                        <Col lg={6} md={12} sm={12} className="text-center text-sm-start mb-3"><Image src={Banner9} className="rounded-4" width="80%"/></Col>
+                        <Col lg={6} md={12} sm={12} className="text-center text-sm-end mb-3"><Image src={Banner9} className="rounded-4" width="80%"/></Col>
                     </Row>
                     <Row className="align-items-center my-5">
                         <Col lg={6} md={12} sm={12} className="text-center text-sm-start mb-3"><Image src={Banner10} className="rounded-4" width="80%"/></Col>
@@ -49,11 +49,11 @@ function ServicePage() {
                     </Row>
                 </Container>
             </section>
-            <section className="mb-5">
+            <section className="build-together">
                 <Container>
                     <Row>
                         <Col sm={12} md={8} className="mx-auto text-center">
-                        <SectionTitle className="text-center">Back-End Development</SectionTitle>
+                        <SectionTitle className="text-center mb-3">Let's build great things together!</SectionTitle>
                         <div className="content-body text-center mb-3">Fill out this form and one of our client success managers will contact you within 24 hours. We have notifications set to make sure your message is received.</div>
                         <Button className="mb-3 primary-blue-btn rounded-2 fw-bold px-5  bg-primary-blue btn btn-primary">Work with Us</Button>
                         </Col>

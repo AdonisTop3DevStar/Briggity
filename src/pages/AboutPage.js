@@ -6,7 +6,7 @@ import { PrimaryBlueBtn } from "../components/buttons";
 
 function AboutPage() {
     return (
-        <div className="AboutPage">
+        <div className="AboutPage pt-5">
             <section className="my-5" >
                 <Container>
                     <Row className="align-items-center">
@@ -16,7 +16,7 @@ function AboutPage() {
                             <ContentBody>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</ContentBody>                            
                             <div className="pe-sm-5 pe-3 text-center text-sm-start my-5"><PrimaryBlueBtn>Work With Us</PrimaryBlueBtn></div>
                         </Col>
-                        <Col lg={5} md={12} sm={12} className="text-center text-sm-end"><Image src={Banner5} className="rounded-2" width="80%"/></Col>
+                        <Col lg={5} md={12} sm={12} className="text-center text-sm-end"><Image src={Banner5} className="rounded-2" width="90%"/></Col>
                     </Row>
                 </Container>
             </section>
