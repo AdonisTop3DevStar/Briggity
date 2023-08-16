@@ -53,9 +53,9 @@ function ServicePage() {
                 <Container>
                     <Row>
                         <Col sm={12} md={8} className="mx-auto text-center">
-                        <SectionTitle className="text-center mb-3">Let's build great things together!</SectionTitle>
-                        <div className="content-body text-center mb-3">Fill out this form and one of our client success managers will contact you within 24 hours. We have notifications set to make sure your message is received.</div>
-                        <Button className="mb-3 primary-blue-btn rounded-2 fw-bold px-5  bg-primary-blue btn btn-primary">Work with Us</Button>
+                        <SectionTitle className="text-center">Let's build great things together!</SectionTitle>
+                        <div className="content-body text-center">Fill out this form and one of our client success managers will contact you within 24 hours. We have notifications set to make sure your message is received.</div>
+                        <Button className="mb-3 primary-blue-btn rounded-2 fw-bold px-5  bg-primary-blue btn btn-primary mt-2">Work with Us</Button>
                         </Col>
                     </Row>
                 </Container>

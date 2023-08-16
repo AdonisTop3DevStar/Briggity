@@ -1,5 +1,5 @@
 export function SectionTitle({children, className}) {
-    const defaultClassName = " section-title mb-5 ";
+    const defaultClassName = " section-title ";
 
     return (
         <div className={defaultClassName + className}>{children}</div>
