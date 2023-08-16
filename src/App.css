@@ -118,8 +118,17 @@ section+section {
   z-index: 10 !important;
 }
 
+.video-react-big-play-button {
+  background: var(--primary-blue) !important;
+}
+
+.video-react .video-react-big-play-button {
+  background: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
+}
+
 .video-react .video-react-big-play-button:before {
-  color: var(--primary-blue-500);
+  color: white;
   font-size: 4rem;
   top: 26px;
 }

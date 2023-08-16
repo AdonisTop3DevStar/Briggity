@@ -59,7 +59,7 @@ function AboutPage() {
             <section className="half-bg" >
                 <Container>
                     <Row>
-                        <Col lg={6} md={12} sm={12}>
+                        <Col lg={6} md={12} sm={12} className="mb-5">
                             <SectionTitle className="text-sm-start text-center">Why Briggity is best To Work With.</SectionTitle>
                             <ContentBody>Cras at pellentesque eros. Nullam vitae sapien et felis eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor sapien. Praesent nec mattis enim. Mauris a laoreet purus.</ContentBody>
                             <div className="check-list d-flex align-items-start mt-4">
