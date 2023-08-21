@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { ContentBody, SectionSubTitle, SectionTitle } from "../components/typography";
-import { Banner1, Banner2, Banner3, BannerItem1, BannerItem2, BannerItem3, BannerItem4, BannerItem5, CheckIcon } from "../assets";
+import { Banner1, Banner2, Banner3, CheckIcon } from "../assets";
 import { PrimaryBlueBtn } from "../components/buttons";
 import { ServiceCardList, TeamMemberCardList } from "../components/layouts";
 import { Player, BigPlayButton } from 'video-react';
@@ -19,11 +19,9 @@ function HomePage() {
                             <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-transparent"/>
                             <div className="position-relative pt-5">
                                 <ProjectCard />
-                                <Image src={BannerItem1} className="position-absolute banner-item-1" />
                                 <Player src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
                                     <BigPlayButton position="center" />
                                 </Player>
-                                <Image src={BannerItem2} className="position-absolute banner-item-2" />
                                 <IntroCard />
                             </div>
                         </Col>
@@ -35,7 +33,6 @@ function HomePage() {
                     <SectionSubTitle>About Us</SectionSubTitle>
                     <SectionTitle className="text-center">Who We Are</SectionTitle>
                     <div  className="position-relative">
-                        <Image src={BannerItem3} className="position-absolute banner-item-3" width="155" />
                     <Row>
                         <Col sm={12} md={12} lg={6} className="mb-2 pe-sm-5 pe-0 d-flex justify-content-between flex-column">
                             <ContentBody><div className="pe-sm-5 pe-3 text-justify">We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</div></ContentBody><br />
@@ -63,9 +60,7 @@ function HomePage() {
                     <SectionSubTitle>Our Services</SectionSubTitle>
                     <SectionTitle className="text-center">What We Can Do For You</SectionTitle>
                     <div className="position-relative">
-                    <Image src={BannerItem4} className="position-absolute banner-item-4 z-1" />
                     <ServiceCardList />
-                    <Image src={BannerItem5} className="position-absolute banner-item-5 z-1" />
                     </div>
                 </Container>
             </section>

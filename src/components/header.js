@@ -24,9 +24,9 @@ function Header() {
                 <NavLink className="nav-link d-flex flex-column text-center mx-2" to={linkItem.link}><span>{linkItem.title}</span></NavLink>
             ))}
           </Nav>
-          <div className='d-flex justify-content-center d-lg-none mb-3'><ContactBtn>Contact</ContactBtn></div>
+          <NavLink className='d-flex justify-content-center d-lg-none mb-3' to="/contact"><ContactBtn>Contact</ContactBtn></NavLink>
         </Navbar.Collapse>
-        <div className='d-none d-lg-inline'><ContactBtn>Contact</ContactBtn></div>
+        <NavLink className='d-none d-lg-inline' to="/contact"><ContactBtn>Contact</ContactBtn></NavLink>
       </Container>
     </Navbar>
     </Container>
