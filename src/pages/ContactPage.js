@@ -45,13 +45,13 @@ function ContactPage() {
                                 </Col>
                                 <Col sm={12} md={12} lg={6} className="mb-3">
                                     <div className="mb-5 d-flex align-items-center">
-                                        <Image src={MailIcon} width="75" className="me-3"/><div className="text-white">Contact@Briggity.com</div>
+                                        <Image src={MailIcon} width="72" className="me-3"/><div className="text-white">Contact@Briggity.com</div>
                                     </div>
                                     <div className="mb-5 d-flex align-items-center">
-                                        <Image src={PhoneIcon} width="75" className="me-3"/><div className="text-white">+92-315-4431105 , +92-315-4431105</div>
+                                        <Image src={PhoneIcon} width="72" className="me-3"/><div className="text-white">+92-315-4431105 , +92-315-4431105</div>
                                     </div>
                                     <div className="d-flex align-items-center">
-                                        <Image src={MapIcon} width="75" className="me-3"/><div className="text-white">Office #605, Liberty GateTower</div>
+                                        <Image src={MapIcon} width="72" className="me-3"/><div className="text-white">Office #605, Liberty GateTower</div>
                                     </div>
                                 </Col>
                             </Row>

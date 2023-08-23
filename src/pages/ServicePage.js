@@ -21,16 +21,22 @@ function ServicePage() {
             </section>
             <section className="my-5" >
                 <Container>
-                    <Row className="align-items-center my-5">
+                    <Row className="align-items-center service-workflow">
                         <Col lg={6} md={12} sm={12} className="text-center text-sm-start mb-3"><Image src={Banner8} className="rounded-4" width="80%"/></Col>
                         <Col lg={6} md={12} sm={12} className="mb-3">
                             <div className="section-subtitle text-start">01</div>
                             <SectionTitle className="text-sm-start text-center">Digital Product Design.</SectionTitle>
                             <ContentBody>The best software has both a strong back-end and a good front-end. We've got the tools and expertise to assist you in creating an intuitive and engaging user experience that your customers will love and your rivals will envy. Our UX/UI Design. Services include</ContentBody>                            
-                            
+                            <ul className="mt-2">
+                                <li><span className="me-2 list-icon">●</span>Design Workshops</li>
+                                <li><span className="me-2 list-icon">●</span>UX & UI Consulting</li>
+                                <li><span className="me-2 list-icon">●</span>Creative Direction</li>
+                                <li><span className="me-2 list-icon">●</span>Prototyping</li>
+                                <li><span className="me-2 list-icon">●</span>Usability Testing</li>
+                            </ul>
                         </Col>
                     </Row>
-                    <Row className="align-items-center my-5">
+                    <Row className="align-items-center service-workflow">
                         <Col lg={6} md={12} sm={12} className="mb-3">
                             <div className="section-subtitle text-start">02</div>
                             <SectionTitle className="text-sm-start text-center">Website & Mobile Development</SectionTitle>
@@ -38,7 +44,7 @@ function ServicePage() {
                         </Col>
                         <Col lg={6} md={12} sm={12} className="text-center text-sm-end mb-3"><Image src={Banner9} className="rounded-4" width="80%"/></Col>
                     </Row>
-                    <Row className="align-items-center my-5">
+                    <Row className="align-items-center service-workflow">
                         <Col lg={6} md={12} sm={12} className="text-center text-sm-start mb-3"><Image src={Banner10} className="rounded-4" width="80%"/></Col>
                         <Col lg={6} md={12} sm={12} className="mb-3">
                             <div className="section-subtitle text-start">03</div>

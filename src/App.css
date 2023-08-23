@@ -31,7 +31,7 @@
   width: 28px;
   margin: auto;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .Header .navbar-brand .nav-link.active::after,
@@ -153,6 +153,11 @@ section+section {
   section.half-bg {
     background-image: none;
   }
+}
+
+.service-workflow {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 /* Cards */
@@ -393,12 +398,13 @@ button:focus:not(:focus-visible) {
 
 .ContactPage input.form-control{
   height: 50px;
-  margin-bottom: 16px;
+  margin-bottom: 16px;  
 }
 
 .ContactPage .form-control{
   background-color: #0A0219;
   color: var(--base-100) !important;
+  border-color: var(--base-400) !important;
 }
 
 .ContactPage .form-control::placeholder {
@@ -409,6 +415,22 @@ button:focus:not(:focus-visible) {
   background-color: #0A0219;
   box-shadow: none;
 }
+
+.ContactPage .section-title {
+  margin-bottom: 64px !important;
+}
+
+.list-icon {
+  color: var(--secondary-green-500);
+}
+
+.service-workflow ul{
+  list-style: none;
+  padding-left: 0px !important;
+  font-size: 20px;
+  color: var(--base-100);
+}
+
 
 /* Footer */
 
