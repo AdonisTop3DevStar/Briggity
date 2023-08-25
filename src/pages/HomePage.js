@@ -35,9 +35,9 @@ function HomePage() {
                     <div  className="position-relative">
                     <Row>
                         <Col sm={12} md={12} lg={6} className="mb-2 pe-sm-5 pe-0 d-flex justify-content-between flex-column">
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</div></ContentBody><br />
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</div></ContentBody><br />
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Welcome to Briggity, your premier destination for cutting-edge software services that transform your business ideas into reality. At Briggity, we're not just a company; we're your technology partner, working hand-in-hand to innovate, create, and elevate your digital presence.</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">With a team of skilled and experienced professionals, Briggity is your go-to source for a wide range of software services. Integrity and transparency are the cornerstones of our business. We believe in open communication, honest practices, and maintaining the highest ethical standards throughout our interactions with clients, partners, and team members.</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Let's work together to turn your software dreams into reality.</div></ContentBody><br />
                             <div className="pe-sm-5 pe-3 text-center text-sm-start"><PrimaryBlueBtn>Leard More</PrimaryBlueBtn></div>
                         </Col>
                         <Col sm={12} md={12} lg={6} className="mb-2">
@@ -76,19 +76,19 @@ function HomePage() {
                     <Row>
                         <Col lg={6} md={12} sm={12} className="mb-5">
                             <SectionTitle className="text-sm-start text-center">Why Briggity is best To Work With.</SectionTitle>
-                            <ContentBody>Cras at pellentesque eros. Nullam vitae sapien et felis eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor sapien. Praesent nec mattis enim. Mauris a laoreet purus.</ContentBody>
+                            <ContentBody>At Briggity, we bring a wealth of experience and deep technical knowledge to the table. Our skilled team of professionals is well-versed in the latest software development trends, ensuring that your projects are in the hands of experts.</ContentBody>
                             <div className="check-list d-flex align-items-start mt-4">
                                 <Image src={CheckIcon} width="40" />
                                 <div className="ms-3">
-                                    <div className="check-list-title">User Experience Design Team.</div>
-                                    <div className="check-list-subtitle">Etiam sed vulputate nisl, eu elementum arcu. Vivamus dignsim tortor in tellus dictum pellentesque. </div>
+                                    <div className="check-list-title">User-Centric Design</div>
+                                    <div className="check-list-subtitle">We believe in putting users first. Our UX design team focuses on creating intuitive interfaces that enhance user engagement, resulting in software that users love to interact with.</div>
                                 </div>
                             </div>
                             <div className="check-list d-flex align-items-start my-3">
                                 <Image src={CheckIcon} width="40" />
                                 <div className="ms-3">
-                                    <div className="check-list-title">User Experience Design Team.</div>
-                                    <div className="check-list-subtitle">Etiam sed vulputate nisl, eu elementum arcu. Vivamus dignsim tortor in tellus dictum pellentesque. </div>
+                                    <div className="check-list-title">Clients as Collaborators</div>
+                                    <div className="check-list-subtitle">When you choose Briggity, you're not just a client – you're a collaborator. We involve you in the creative process, ensuring that the end result is a true reflection of your vision and objectives.</div>
                                 </div>
                             </div>
                             <div className="pe-sm-5 pe-3 text-center text-sm-start mb-5"><PrimaryBlueBtn>Lets Work Together</PrimaryBlueBtn></div>

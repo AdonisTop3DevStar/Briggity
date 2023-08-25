@@ -19,7 +19,7 @@ export function TeamMemberCard({ avatar, name, role }) {
     return (
         <Card className="TeamMemberCard border-0 bg-transparent">
             <Card.Body className="text-center bg-none">
-                <Image src={avatar} width="200" className="rounded-circle" />
+                <Image src={avatar} width="200" className="rounded-circle shadow" />
                 <Card.Title className="my-3">{name}</Card.Title>
                 <Card.Subtitle className="mb-3">{role}</Card.Subtitle>
             </Card.Body>
@@ -38,7 +38,7 @@ export function IntroCard() {
                         <div className="role">CEO Briggity</div>
                     </div>
                 </div>
-                <div className="mt-2 intro-content">“ This team is really the best in its field,I don't regret working with them, and will come back again thanks “</div>
+                <div className="mt-2 intro-content">‘’At Briggity, our passion for technology drives us to create software solutions that redefine possibilities. Your goals are our inspiration’’</div>
             </Card.Body>
         </Card>
     )

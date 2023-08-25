@@ -188,6 +188,10 @@ section+section {
   line-height: 1.5;
 }
 
+.banner-subtitle {
+  font-size: 20px !important;
+}
+
 .banner-item-1 {
   top: 1%;
   left: 20%;

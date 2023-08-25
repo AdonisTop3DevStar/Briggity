@@ -22,38 +22,38 @@ export const NavLinks = [
 export const Services = [
     {
         icon : IntroIcon,
-        title : "Project Introduction",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        title : "Enterprise Solutions",
+        subtitle : "Briggity is equipped to handle complex enterprise challenges",
         link : ""
     },
     {
         icon : ExperienceIcon,
         title : "User Experience Design",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        subtitle : " We understand that a great user experience is a key factor in the success of any software product.",
         link : ""
     },
     {
         icon : InterfaceIcon,
         title : "User Interface Design",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        subtitle : " We understand that a great user interface is a key factor in the success of any software product.",
         link : ""
     },
     {
         icon : FrontendIcon,
         title : "Front-end Development",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        subtitle : " We elevate User Experiences through Exceptional Front-End Development",
         link : ""
     },
     {
         icon : BackendIcon,
         title : "Back-end Development",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        subtitle : "Powering Your Platform with Seamless Back-End Solutions.",
         link : ""
     },
     {
         icon : FeedbackIcon,
-        title : "Delivery & Client Feedback",
-        subtitle : "Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna.",
+        title : "Innovation and Quality",
+        subtitle : "We're committed to delivering solutions that stand the test of time",
         link : ""
     },
 ];
@@ -66,8 +66,8 @@ export const TeamMembers = [
     },
     {
         avatar : TeamMemberAvatar2,
-        name : "Cody Fisher",
-        role : "Project Manager"
+        name : "Lenette Venturina",
+        role : "Executive Assistant/Administrator"
     },
     {
         avatar : TeamMemberAvatar3,
@@ -76,12 +76,12 @@ export const TeamMembers = [
     },
     {
         avatar : TeamMemberAvatar4,
-        name : "Reyhan Ahmet",
-        role : "Lead Designer"
+        name : "Isak",
+        role : "Digital Marketer"
     },
     {
         avatar : TeamMemberAvatar5,
-        name : "Niko",
+        name : "Niko Hackl",
         role : "UX UI Designer && Front-end Developer"
     },
     {
