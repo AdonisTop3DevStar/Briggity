@@ -35,8 +35,8 @@ export default function Footer() {
                     </Col>
                     <Col md={3} sm={12} className="mb-3">
                         <FooterSectiontitle>Reach us</FooterSectiontitle>
-                        <div className="d-flex align-items-center mb-3"><Image src={MailIcon} height="32" className="me-2"/><ContentBody>contact@Briggity.com</ContentBody></div>
-                        <div className="d-flex align-items-center mb-3"><Image src={PhoneIcon} height="32" className="me-2"/><ContentBody>+92-315-4431105</ContentBody></div>
+                        <div className="d-flex align-items-center mb-3"><Image src={MailIcon} height="32" className="me-2"/><ContentBody>matt@briggity.com</ContentBody></div>
+                        <div className="d-flex align-items-center mb-3"><Image src={PhoneIcon} height="32" className="me-2"/><ContentBody>+1(801)989-6197</ContentBody></div>
                         <div className="d-flex align-items-start mb-3"><Image src={MapIcon} height="32" className="me-2"/><ContentBody>Office #605, Liberty Gate Tower, MM Alam Road, Gullberg 3 Lahore, Pakistan</ContentBody></div>
                     </Col>
                 </Row>
