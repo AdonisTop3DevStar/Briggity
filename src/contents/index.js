@@ -87,12 +87,12 @@ export const TeamMembers = [
     {
         avatar : TeamMemberAvatar5,
         name : "Niko Hackl",
-        role : "UX UI Designer && Lead Web Developer"
+        role : "UX/UI Designer & Senior Software Engineer"
     },
     {
         avatar : TeamMemberAvatar4,
-        name : "Ram",
-        role : "Senior Software Developer"
+        name : "Ramil",
+        role : "Senior Software Engineer"
     },    
     
     {

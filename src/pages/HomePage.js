@@ -14,8 +14,8 @@ function HomePage() {
                 <Container>
                     <Row>
                         <Col sm={12} md={10} className="mx-auto fw-bold">
-                            <div className="banner-title text-center mb-4 text-white">From idea inception to revenue actualization. Need assistance?</div>
-                            <div className="banner-subtitle text-center"> Allow us to guide your journey toward achieving your objectives—Our team will work diligently to turn your vision into tangible results.</div>
+                            <div className="banner-title text-center mb-4 text-white">From idea inception to revenue actualization:</div>
+                            <div className="banner-subtitle text-center">Need assistance? Allow us to guide your journey toward achieving your objectives—Our team will work diligently to turn your vision into tangible results.</div>
                             <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-transparent"/>
                             <div className="position-relative pt-5">
                                 <ProjectCard />
@@ -66,7 +66,7 @@ function HomePage() {
             </section>
             <section className="">
                 <SectionSubTitle>Our Team</SectionSubTitle>
-                <SectionTitle className="text-center">Meet our team member</SectionTitle>
+                <SectionTitle className="text-center">Meet our team members</SectionTitle>
                 <Container>
                     <TeamMemberCardList />
                 </Container>
