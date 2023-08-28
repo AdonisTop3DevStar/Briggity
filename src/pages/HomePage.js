@@ -14,8 +14,8 @@ function HomePage() {
                 <Container>
                     <Row>
                         <Col sm={12} md={10} className="mx-auto fw-bold">
-                            <div className="banner-title text-center mb-4 text-white">Turning Your Business Dream Into Tomorrow's Reality.</div>
-                            <div className="banner-subtitle text-center">when you need us for improve your business,<br /> then come with us to help your business have reach it, you just sit and feel that goal</div>
+                            <div className="banner-title text-center mb-4 text-white">From idea inception to revenue actualization. Need assistance?</div>
+                            <div className="banner-subtitle text-center"> Allow us to guide your journey toward achieving your objectives—Our team will work diligently to turn your vision into tangible results.</div>
                             <div className="text-center mb-5"><PrimaryBlueBtn>Start Project</PrimaryBlueBtn></div><hr className="text-transparent"/>
                             <div className="position-relative pt-5">
                                 <ProjectCard />
@@ -35,9 +35,9 @@ function HomePage() {
                     <div  className="position-relative">
                     <Row>
                         <Col sm={12} md={12} lg={6} className="mb-2 pe-sm-5 pe-0 d-flex justify-content-between flex-column">
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Welcome to Briggity, your premier destination for cutting-edge software services that transform your business ideas into reality. At Briggity, we're not just a company; we're your technology partner, working hand-in-hand to innovate, create, and elevate your digital presence.</div></ContentBody><br />
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">With a team of skilled and experienced professionals, Briggity is your go-to source for a wide range of software services. Integrity and transparency are the cornerstones of our business. We believe in open communication, honest practices, and maintaining the highest ethical standards throughout our interactions with clients, partners, and team members.</div></ContentBody><br />
-                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Let's work together to turn your software dreams into reality.</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Welcome to Briggity, your ultimate source for innovative software services that turn your business visions into tangible results. At Briggity, we're more than just a service provider; we're your technology ally, collaborating closely to innovate, develop, and amplify your digital footprint.</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Boasting a team of highly skilled and seasoned experts, Briggity stands as your primary choice for a diverse array of software solutions. Our business is built on the pillars of integrity and transparency. We're committed to open dialogue, ethical conduct, and maintaining the highest standards in our interactions with clients, partners, and our team.</div></ContentBody><br />
+                            <ContentBody><div className="pe-sm-5 pe-3 text-justify">Let's collaborate to actualize your software aspirations.</div></ContentBody><br />
                             <div className="pe-sm-5 pe-3 text-center text-sm-start"><PrimaryBlueBtn>Leard More</PrimaryBlueBtn></div>
                         </Col>
                         <Col sm={12} md={12} lg={6} className="mb-2">

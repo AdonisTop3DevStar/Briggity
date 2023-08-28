@@ -65,6 +65,16 @@ export const TeamMembers = [
         role : "CEO & Founder of Briggity"
     },
     {
+        avatar : TeamMemberAvatar8,
+        name : "Logan Riddle",
+        role : "COO of Briggity"
+    },
+    {
+        avatar : TeamMemberAvatar6,
+        name : "Mahnoor",
+        role : "CMO of Briggity"
+    },
+    {
         avatar : TeamMemberAvatar2,
         name : "Lenette Venturina",
         role : "Executive Assistant/Administrator"
@@ -75,30 +85,22 @@ export const TeamMembers = [
         role : "Product Designer"
     },
     {
-        avatar : TeamMemberAvatar4,
-        name : "Isak",
-        role : "Digital Marketer"
-    },
-    {
         avatar : TeamMemberAvatar5,
         name : "Niko Hackl",
-        role : "UX UI Designer && Front-end Developer"
+        role : "UX UI Designer && Lead Web Developer"
     },
     {
-        avatar : TeamMemberAvatar6,
-        name : "Esther Howard",
-        role : "UX Designer (Intern)"
-    },
+        avatar : TeamMemberAvatar4,
+        name : "Ram",
+        role : "Senior Software Developer"
+    },    
+    
     {
         avatar : TeamMemberAvatar7,
         name : "Ram",
         role : "Back-end Developer"
     },
-    {
-        avatar : TeamMemberAvatar8,
-        name : "Devon Lane",
-        role : "Front-end Developer"
-    },
+    
 ];
 
 export const Principles = [
